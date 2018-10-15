@@ -1,0 +1,89 @@
+
+body {background-image: url("storepic1.jpg");
+	font-family:, Helvetica, sans-serif; 
+	height:50vh;
+	width:50vh
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.tablink {
+    background-color: red;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 24.7%;
+	position: center;
+	width: 100;
+}
+.tabs {
+  position: relative;   
+  min-height: 200px; 
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tablink:hover {
+    background-color: gray;
+}
+.tabcontent {
+    color: white;
+    display: none;
+	position: center;
+    padding: 0px 0px;
+    height: 0%;
+	float: center;
+}
+
+
+#Home {background-color: gray;}
+#User {background-color: gray;}
+#Menu {background-color: gray;}
+#Admin {background-color: gray;}
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: gray; 
+    background-color: gray; 
+}
+.modal-content {
+    background-color: skyblue;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+	text-align: center;
+}
+.close {
+    color: skyblue;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: Red;
+   color: white;
+   text-align: center;
+}
