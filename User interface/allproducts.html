@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="list.css">
+</head>
+<body>
+<h2><i> Available products in the store</i></h2>
+<table id="customers">
+  <tr>
+    <th>Product ID</th>
+    <th>Description</th>
+	<th>quantity</th>
+	<th>minimum quantity allowed in store</th>
+    <th>Price per single product</th>
+  </tr>
+  <tr>
+    <td>1 </td>
+    <td>Alluminium foil</td>
+	<td>20 rolls</td>
+	<td>10 rolls</td>
+    <td>Ksh 500</td>
+  </tr>
+  <tr>
+    <td>2 </td>
+    <td> Wall pass</td>
+	<td>100 metres</td>
+	<td>10 metres</td>
+    <td>Ksh 400</td>
+  </tr>
+  <tr>
+    <td>3 </td>
+    <td> Iron sheet </td>
+	<td>20 sheets</td>
+	<td>10 sheets</td>
+	<td>Ksh 300</td>
+  </tr>
+</table>
+    <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Search Product with ID</button>
+    </form>
+    </div>
+		<div class="clearfix"> 
+	  <form method="get" action="index.html">
+      <button type="submit">Back</button>
+	  </form>
+    </div>
+
+</body>
+</html>
