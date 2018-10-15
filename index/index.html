@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'lime')">Home</button>
+<button class="tablink" onclick="openPage('Products', this, 'lime')" >Products</button>
+<button class="tablink" onclick="openPage('User', this, 'lime')" >Store Attendant</button>
+<button class="tablink" onclick="openPage('Admin', this, 'lime')">Store Owner</button>
+
+<div id="Home" class="tabcontent">
+<br>
+<br>
+<h1><b><i>Your daily Store management assistant!</b></h1>
+<h4><b><i>Manage all your products in the store in an easy and fast manner </b></h4>
+<h2><i><i>Enjoy your day to day management work through this parfectualized assistant</i></h2>
+<h3><b><i>Log in or sing up to expole the potential of your assistant  </b></h3>
+<br>
+<br>
+<h4><i>contact information <br>tel:079226640<br> Email: awitisimon23@gmail.com </h4>
+</div>
+<div id="Products" class="tabcontent">
+<br>
+<br>
+<h1><i><b> Store management assistant!!! </b></h1> 
+<h3><i><b> Available Products Today </b></h3>
+<br>
+<br>
+<h2><i><b> Click  <a  href = "C:\Users\Simon\desktop\userinterfaces\allproducts.html"> here </a> to view the products </i></b></h2>
+</div>
+<div id="User" class="tabcontent">
+<br>
+<br>
+<h1><i><b> Welocome User!! </b></h1> 
+<h3><i><b> Are you a new store attendant? </b></h3>
+<h2><i><b> Sign up to start managing the store now!!</b></h2>
+<br>
+<br>
+<h2><i><b> Click  <a  href = "C:\Users\Simon\desktop\userinterfaces\singin.html"> here </a> to sing up now </i></b></h2>
+<br>
+<br>
+<h3><i><b> Already have an account?  <br> 
+<h2><i><b> Click  <a  href = "C:\Users\Simon\desktop\userinterfaces\login.html"> here </a> to sing in now </i></b></h2> </b></h3>
+</div>
+<div id="Admin" class="tabcontent">
+<br>
+<br>
+<h1><i><b> Welocome User!! </b></h1> 
+<h3><i><b> Are you a new store owner? </b></h3>
+<h2><i><b> Sign up to start managing the store now!!</b></h2>
+<br>
+<br>
+<h2><i><b> Click  <a  href = "C:\Users\Simon\desktop\userinterfaces\singin.html"> here </a> to sing up now </i></b></h2>
+<br>
+<br>
+<h3><i><b> Already have an account?  <br> Sing in here </b></h3>
+<h2><i><b> Click  <a  href = "C:\Users\Simon\desktop\userinterfaces\login.html"> here </a> to sing in now </i></b></h2> </b></h3>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
+<div class="footer">
+ <footer>
+ <p><i>Proper management for proper accountability, copyright &copy;Andela2018</p> 
+</div>	
+</body>
+</html> 
