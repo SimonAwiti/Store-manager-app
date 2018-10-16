@@ -20,5 +20,5 @@ Admin features
 * Create, modify and delete a product.
 * View sale records by all store attendants.
 
-View the webstie [here](https://simonawiti.github.io/Store-manager-app/)
+View the webstie [here](https://simonawiti.github.io/Store-manager-app/Userinterface/index.html)
 
