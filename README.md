@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Store-manager-app
 A web application that helps store owners manage sales and product inventory records.
 
@@ -17,6 +19,9 @@ Admin features
 * Create an attendat's account
 * Create, modify and delete a product.
 * View sale records by all store attendants.
+
+View the webstie [here](https://simonawiti.github.io/Store-manager-app/)
+
 
 
 
